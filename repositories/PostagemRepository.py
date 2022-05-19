@@ -77,4 +77,4 @@ class PostagemRepository:
         postagem = await postagem_collection.find_one({"_id": ObjectId(id)})
 
         if postagem:
-            await postagem_collection.delete_one({"_id": ObjectId(id)})te_one({"_id": ObjectId(id)})
+            await postagem_collection.delete_one({"_id": ObjectId(id)})
